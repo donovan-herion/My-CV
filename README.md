@@ -1,4 +1,4 @@
-#CV Project
+# CV Project
 
 **CSS features**
 
@@ -18,4 +18,4 @@ using div inside of a container is not always a good solution because centering 
 
 [Here's the link to the github page](https://donovan-herion.github.io/My-CV/)
 
-![image](https://media.giphy.com/media/bSuLfN2aLFEsRwbGZa/giphy.gif)
+![image](https://media.giphy.com/media/xUA7b8xA1hqGNVUFOg/giphy.gif)
