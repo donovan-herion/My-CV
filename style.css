@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Patrick+Hand&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Patrick Hand';
+    background-color: #ccc;
+}
+
+    .grid-container {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        grid-auto-rows: minmax(50px, auto);
+        background-color: white;
+        width: 50%;
+        margin: 0 auto;
+        grid-template-areas: "image-profile image-profile header header"
+                             ". . . ."
+                             "info info info info"
+                             "info-text info-text info-text info-text"
+                             ". . . ."
+                             "experience experience experience experience"
+                             "becode becode-text becode-text becode-text"
+                             "whv whv-text whv-text whv-text"
+                             "keller keller-text keller-text keller-text"
+                             ". . . ."
+                             "backgrnd backgrnd backgrnd backgrnd"
+                             "helmo helmo-text helmo-text helmo-text"
+                             "tec tec-text tec-text tec-text"
+                             ". . . ."
+                             "languages languages languages languages"
+                             "german english spanish french"
+                             "german-text english-text spanish-text french-text";
+    }
+
+
+.image-profile {
+    grid-area: image-profile;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile {
+    width: 200px;
+    border-radius: 50%;
+    border: solid 3px black ;
+}
+
+.header {
+    background-color: white;
+    grid-area: header;
+    }
+
+.header h1, .header h2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Impact;
+}
+
+.header h2 {
+    font-size: 16px;  
+    font-weight: 400;  
+}
+
+.info {
+    grid-area: info;
+}
+
+.info-text {
+    grid-area: info-text;
+}
+
+.experience {
+    grid-area: experience;
+}
+
+.becode {
+    grid-area: becode;
+}
+
+.becode-text {
+    grid-area: becode-text;
+}
+
+.whv {
+    grid-area: whv;
+}
+
+.whv-text {
+    grid-area: whv-text;
+}
+
+.keller {
+    grid-area: keller;
+}
+
+.keller-text {
+    grid-area: keller-text;
+}
+
+.backgrnd {
+    grid-area: backgrnd;
+}
+
+.helmo {
+    grid-area: helmo;
+}
+
+.helmo-text {
+    grid-area: helmo-text;
+}
+
+.tec {
+    grid-area: tec;
+}
+
+.tec-text {
+    grid-area: tec-text;
+}
+
+.languages {
+    grid-area: languages;
+}
+
+.german {
+    grid-area: german;
+}
+
+.german-text {
+    grid-area: german-text;
+}
+
+.english {
+    grid-area: english;
+}
+
+.english-text {
+    grid-area: english-text;
+}
+
+.spanish {
+    grid-area: spanish;
+}
+
+.spanish-text {
+    grid-area: spanish-text;
+}
+
+.french {
+    grid-area: french;
+}
+
+.french-text {
+    grid-area: french-text;
+}
+
+
+.info, .experience, .backgrnd, .languages {
+    border-bottom: solid 2px black;
+    height: 25px;
+    font-family: impact;
+}
+
+.info-text, .becode-text, .whv-text, .keller-text, .helmo-text, .tec-text {
+    justify-self: start;
+}
+
+.becode, .whv, .keller, .helmo, .tec {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.settings-image {
+    border-radius: 50%;
+    border: solid 3px black ;
+    width: 100px;
+    height: 100px;
+}
+
+.settings-flag {
+    margin: 20px 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.german-text, .german ,.spanish-text, .spanish, .english-text, .english,  .french-text, .french {
+    text-align: center;
+}
