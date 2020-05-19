@@ -7,7 +7,9 @@
 
 body {
     font-family: 'Patrick Hand';
-    background-color: #ccc;
+    background-image: url(images/blue\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
     .grid-container {
