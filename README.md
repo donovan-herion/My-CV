@@ -3,10 +3,10 @@
 **CSS features**
 
 * Grid
+* media queries
 
 **Not added yet**
 
-* media queries
 * dynamic links
 * hover effects
 * animation 

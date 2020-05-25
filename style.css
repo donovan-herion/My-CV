@@ -7,9 +7,7 @@
 
 body {
     font-family: 'Patrick Hand';
-    background-image: url(images/blue\ background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #011935;
 }
 
     .grid-container {
@@ -193,4 +191,80 @@ body {
 
 .german-text, .german ,.spanish-text, .spanish, .english-text, .english,  .french-text, .french {
     text-align: center;
+}
+
+@media (max-width:1300px) {
+    .grid-container {
+        width: 60%;
+}
+
+@media (max-width:1100px) {
+    .grid-container {
+        width: 70%;
+}
+
+@media (max-width:850px) {
+        .grid-container {
+            width: 80%;
+            grid-template-areas: "image-profile"
+                                "header"
+                                "."
+                                "info"
+                                "info-text"
+                                "."
+                                "experience"
+                                "becode"
+                                "becode-text"
+                                "whv"
+                                "whv-text"
+                                "keller"
+                                "keller-text"
+                                "."
+                                "backgrnd"
+                                "helmo"
+                                "helmo-text"
+                                "tec"
+                                "tec-text"
+                                "."
+                                "languages"
+                                "german"
+                                "german-text"
+                                "english"
+                                "english-text"
+                                "spanish"
+                                "spanish-text"
+                                "french"
+                                "french-text";
+        }
+
+    .info, .experience, .backgrnd, .languages {
+        text-align: center;
+        display: block;
+        width: 75%;
+        margin: 20px auto;
+        padding: 5px;
+        box-sizing: content-box;
+    }
+
+    .info-text, .becode-text, .whv-text, .keller-text, .helmo-text, .tec-text {
+        justify-self: center;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .erase {
+        display: none;
+    }
+
+
+    .settings-flag {
+        margin: 20px 20px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .info-text {
+        display: block;
+        width: 65%;
+    }
 }
